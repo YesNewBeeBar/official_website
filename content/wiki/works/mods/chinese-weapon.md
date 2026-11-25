@@ -8,9 +8,10 @@ comments: true
 ![中式甲兵](https://s41.ax1x.com/2026/07/29/pmfMty9.png)
 > <p style="text-align:left;">修我甲兵，与子偕行！<span style="float:right;">——出自《秦风·无衣》</span></p>
 
-[![CurseForge Game Versions](https://img.shields.io/curseforge/game-versions/1628670?style=for-the-badge&logo=educative&logoColor=%23F16436&label=For%20MiaoCraft%20Version)](https://www.curseforge.com/minecraft/mc-mods/chinese-weapons)
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/nweFmOF7?style=for-the-badge&logo=modrinth&logoColor=%2300AF5C&label=modrinth%20miaomiao%20ovo)](https://modrinth.com/mod/chinese-weapons)
-[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1628670?style=for-the-badge&logo=curseforge&logoColor=%23F16436&label=curseforge%20miaomiao%20ovo)](https://www.curseforge.com/minecraft/mc-mods/chinese-weapons)
+[![Latest Release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2FCTNStudio%2FChineseWeapons%2Freleases%2Flatest&query=%24.tag_name&style=for-the-badge&logo=github&label=Latest%20Release)](https://github.com/CTNStudio/ChineseWeapons/releases/latest)
+[![CurseForge Game Versions](https://img.shields.io/curseforge/game-versions/1628670?style=for-the-badge&logo=educative&logoColor=%23F16436&label=For%20MineCraft%20Version)](https://www.curseforge.com/minecraft/mc-mods/chinese-weapons)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/nweFmOF7?style=for-the-badge&logo=modrinth&logoColor=%2300AF5C&label=modrinth%20downloads)](https://modrinth.com/mod/chinese-weapons)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1628670?style=for-the-badge&logo=curseforge&logoColor=%23F16436&label=curseforge%20downloads)](https://www.curseforge.com/minecraft/mc-mods/chinese-weapons)
 
 《中式甲兵》是由星屹工作室制作的中式武器模组，为游戏添加了多种中式盔甲与武器，以及一系列合成材料与新的矿物​。
 
@@ -96,30 +97,49 @@ comments: true
 
 ## 更新日志
 {{< details title="最新正式版" closed="true" >}}
-## ·Forge 1.20.1<br>
-### ·调整<br>
-        步人甲免疫箭矢并反弹，生命值大于30%不受缓慢buff，提升护甲值与全套穿戴提供额外伤害。
-        唐代步兵甲 提升护甲值，允许在雪地行走。
-        戈 减少 1点 伤害，让玩家在骑乘时取消骑乘概率调整为40%。
-        所有技能消耗 2 点耐久。
-        cuts 药水效果 攻击时30%概率扣除 1点 血量。
-        bleed 药水效果 每秒扣除 1点 血量。
-        调整横刀模型。
-        锻造台全新机制。
-### ·新增<br>
-        偃月刀技能 右键如果玩家/生物处于奔跑状态 有概率使其停止行动。
-        武器 梭枪 拥有投掷与近战两项使用方式。玩家右键可将其投掷而出，效果类似于三叉戟，用于中远距离打击目标。<br>
-        武器 骨朵 跳跃攻击可以压扁被攻击实体。
-        武器 宋代立盾 可以作为盾牌与通过指定快捷键进行放置；放置后可以反弹箭矢， 在盾牌左侧右击可以向左侧旋转15°，以此类推，免疫药水与火焰伤害，盾牌后方免疫前方的爆炸伤害。
-        盔甲 面甲 穿戴蹲下后，可以恐吓玩家周围3-13的实体，冷却 3秒。
-        盔甲 宋代步兵甲 暂时未加入任何特殊属性。
+{{< tabs >}}
+
+{{< tab name="1.20.1" icon="forge">}}
+### 1.2.1.4
+#### 修复
++ 梭枪投掷的位置微调，第三人称梭枪显示修复
++ 骨朵给予效果错误
+#### 添加
++ 在未安装Patchouli时提醒
+
+
+  {{< /tab >}}
+  {{< tab name="1.21.1" icon="neoforge" >}}
+### 1.2.1.2
+#### 修复
++ 梭枪投掷的位置微调，梭枪模型显示异常
++ json出现部分异常问题
+#### 新增
++ 本地化文件新增内容
++ 远古宝石方块
+  {{< /tab >}}
+
+{{< /tabs >}}
+
 {{< /details >}} 
 
 ## 相关链接
 {{< cards cols="1" >}}
-  {{< card link="https://1815184920.cdn.123clouddisk.com/1815184920/35634902#" title="立即下载" subtitle="最新版本：<img src='https://img.shields.io/modrinth/v/nweFmOF7?style=for-the-badge&logo=modrinth&logoColor=%2300AF5C&labelColor=rgba(0%2C%20128%2C%20255%2C%200.8)&color=rgba(0%2C%20128%2C%20255%2C%200.8)' style='border-radius: 5px;'>" tag="支持Forge 1.20.1" tagType="info" >}}
-  {{< card link="https://1815184920.cdn.123clouddisk.com/1815184920/35689869#" title="立即下载" subtitle="最新版本：<img src='https://img.shields.io/modrinth/v/nweFmOF7?style=for-the-badge&logo=modrinth&logoColor=%2300AF5C&labelColor=rgba(0%2C%20128%2C%20255%2C%200.8)&color=rgba(0%2C%20128%2C%20255%2C%200.8)' style='border-radius: 5px;'>" tag="支持NeoForge 1.21.1" tagType="info" >}}
+  {{< card link="https://files.ctnstudios.top/down.php/e4479edac3ba956d137b7f21cc0690c0.jar" title="立即下载" subtitle="最新版本：1.2.1.4" tag="支持Forge 1.20.1" tagType="info" >}}
+  {{< card link="https://files.ctnstudios.top/down.php/884aeb2f810f96c65ceeab1c0787f5d5.jar" title="立即下载" subtitle="最新版本：1.2.1.2" tag="支持NeoForge 1.21.1" tagType="info" >}}
 {{< /cards >}}
+
+{{< details title="不再受支持的版本" closed="true" >}}
+|平台|Minecraft版本|最后模组版本|下载|
+|-----|----|----|------------------------------------|
+|Fabric|1.20.1|1.2.1.4|[![Static Badge](https://img.shields.io/badge/Download-1.2.1.4-orange)](https://files.ctnstudios.top/down.php/763fb92c7f8d4a438b2cca5df95aa67d.jar)|
+|Fabric|1.21.1|1.2.1.4|[![Static Badge](https://img.shields.io/badge/Download-1.2.1.4-orange)](https://files.ctnstudios.top/down.php/93a47e3b22d0c8c0f6c35cf423375d58.jar)|
+|Fabric|26.1|1.2.1.4|[![Static Badge](https://img.shields.io/badge/Download-1.2.1.4-orange)](https://files.ctnstudios.top/down.php/a73f2b97c9c5e97c6f687f2438b39ad6.jar)|
+|Neoforge|26.1|1.2.1.4|[![Static Badge](https://img.shields.io/badge/Download-1.2.1.4-orange)](https://files.ctnstudios.top/down.php/da4e904a714f124de951de6667b5531a.jar)|
+|Forge|1.18.2|1.2.1.4|[![Static Badge](https://img.shields.io/badge/Download-1.2.1.4-orange)](https://files.ctnstudios.top/down.php/92fdede69f002dae370c3260d391de16.jar)|
+|Forge|1.19.2|1.2.1.4|[![Static Badge](https://img.shields.io/badge/Download-1.2.1.4-orange)](https://files.ctnstudios.top/down.php/3bb7552cbfb268e5898f6f710917f764.jar)|
+{{< /details >}} 
+
 + [Curseforge](https://www.curseforge.com/minecraft/mc-mods/chinese-weapons)
 + [Modrinth](https://modrinth.com/mod/chinese-weapons)
 + [MC百科](https://www.mcmod.cn/class/29140.html)
